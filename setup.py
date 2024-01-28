@@ -4,10 +4,9 @@ from setuptools import setup, find_packages
 def main():
     setup(
         name='py',
+        version='1.11.0',
         description='library with cross-python path, ini-parsing, io, code, log facilities',
         long_description=open('README.rst').read(),
-        use_scm_version={"write_to": "py/_version.py"},
-        setup_requires=["setuptools_scm"],
         url='https://py.readthedocs.io/',
         license='MIT license',
         platforms=['unix', 'linux', 'osx', 'cygwin', 'win32'],
